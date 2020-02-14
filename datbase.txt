@@ -1,0 +1,7 @@
+dbname loginsys
+create table users (
+idusers int(11) auto_increment primary key not null,
+uidusers tinytext not null,
+emailusers tinytext not null,
+pwdusers longtext not null
+);
